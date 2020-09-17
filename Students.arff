@@ -1,0 +1,10 @@
+@relation students
+@attribute rollnumber numeric
+@attribute name string
+@attribute Dept {cse,ece,eee,it}
+@attribute age numeric
+@attribute year date "yyyy-mm-dd"
+
+@data
+1,ramya,cse,20,"2000-09-21"
+2,anu,eee,20,"2000-02-14"
